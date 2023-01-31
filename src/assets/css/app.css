@@ -1,0 +1,191 @@
+/* Text Colors */
+.text-green {
+  color: #80c52e;
+}
+
+.text-navy {
+  color: #3d4975;
+}
+
+/* Background Colors */
+.bg-green {
+  background-color: #80c52e;
+}
+
+.bg-navy {
+  background-color: #3d4975;
+}
+
+.bg-light-blue {
+  background-color: #f1fafc;
+}
+
+/* Buttons */
+.btn-green {
+  color: #fff;
+  background-color: #80c52e;
+  border-color: #80c52e;
+}
+
+.btn-outline-green {
+  color: #80c52e;
+  border-color: #80c52e;
+}
+
+.btn-green:hover,
+.btn-outline-green:hover {
+  color: #fff;
+  background-color: #61ce70;
+  border-color: #61ce70;
+}
+
+.btn-green:focus,
+.btn-outline-green:focus {
+  color: #fff;
+  background-color: #80c52e;
+  border-color: #61ce70;
+}
+
+.btn-green:not(:disabled):not(.disabled).active,
+.btn-green:not(:disabled):not(.disabled):active,
+.show > .btn-green.dropdown-toggle,
+.btn-outline-green:not(:disabled):not(.disabled).active,
+.btn-outline-green:not(:disabled):not(.disabled):active,
+.show > .btn-outline-green.dropdown-toggle {
+  color: #fff;
+  background-color: #54b360;
+  border-color: #54b360;
+}
+
+.btn-navy {
+  color: #fff;
+  background-color: #3d4975;
+  border-color: #3d4975;
+}
+
+.btn-outline-navy {
+  color: #3d4975;
+  border-color: #3d4975;
+}
+
+.btn-navy:hover,
+.btn-outline-navy:hover {
+  color: #fff;
+  background-color: #2e3455;
+  border-color: #2e3455;
+}
+
+.btn-navy:focus,
+.btn-outline-navy:focus {
+  color: #fff;
+  background-color: #3d4975;
+  border-color: #2e3455;
+}
+
+.btn-navy:not(:disabled):not(.disabled).active,
+.btn-navy:not(:disabled):not(.disabled):active,
+.show > .btn-navy.dropdown-toggle,
+.btn-outline-navy:not(:disabled):not(.disabled).active,
+.btn-outline-navy:not(:disabled):not(.disabled):active,
+.show > .btn-outline-navy.dropdown-toggle {
+  color: #fff;
+  background-color: #252a47;
+  border-color: #252a47;
+}
+
+.btn:focus {
+  box-shadow: unset;
+}
+
+/** 
+ * Responsive
+ */
+.navbar-collapse .collapse-hide {
+  display: none;
+}
+
+div[data-test="table"] {
+  overflow-x: auto;
+}
+
+@media (min-width: 992px) {
+  .custom--desktop-hide {
+    display: none !important;
+  }
+
+  .custom--desktop-padding-left-270 {
+    padding-left: 270px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #content .page-left {
+    display: none;
+  }
+
+  #content .page-right {
+    padding-left: 0 !important;
+  }
+
+  .custom--mobile-hide {
+    display: none !important;
+  }
+
+  .custom--mobile-padding-left-0 {
+    padding-left: 0 !important;
+  }
+}
+
+/**
+ * Navigation
+ */
+/** **************** */
+.list-group-item {
+  font-size: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.navigation .accordion .btn-link {
+  text-decoration: none;
+}
+
+.navigation a.active {
+  background-color: #9fa8da;
+}
+
+/**
+ * Credit Card
+ */
+#PaymentForm .rccs {
+  margin: 0;
+}
+
+/**
+ * BreadCrumb
+ */
+#breadcrumb .breadcrumb {
+  margin-bottom: 0;
+}
+
+/**
+ * Table
+ */
+.table-bordered thead td,
+.table-bordered thead th {
+  border-bottom-width: 1px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #52cee6;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #52cee6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f1fafc;
+}
